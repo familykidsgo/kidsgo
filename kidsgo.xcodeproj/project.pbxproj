@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73AA14081900F268004B9076 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA14071900F268004B9076 /* FacebookSDK.framework */; };
+		73AA140A1900F2C5004B9076 /* FBUserSettingsViewResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 73AA14091900F2C5004B9076 /* FBUserSettingsViewResources.bundle */; };
+		73AA140C1900F312004B9076 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA140B1900F312004B9076 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		73AA140E1900F31C004B9076 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA140D1900F31C004B9076 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		73AA14101900F32E004B9076 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA140F1900F32E004B9076 /* libsqlite3.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		73AA14121900F336004B9076 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA14111900F336004B9076 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		73AA14141900F33D004B9076 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA14131900F33D004B9076 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		73AA14161900F44A004B9076 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA14151900F44A004B9076 /* AudioToolbox.framework */; };
+		73AA14181900F452004B9076 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA14171900F452004B9076 /* CFNetwork.framework */; };
+		73AA141A1900F468004B9076 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA14191900F468004B9076 /* CoreLocation.framework */; };
+		73AA141C1900F476004B9076 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA141B1900F476004B9076 /* libz.1.1.3.dylib */; };
+		73AA141E1900F480004B9076 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA141D1900F480004B9076 /* MobileCoreServices.framework */; };
+		73AA14201900F490004B9076 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA141F1900F490004B9076 /* QuartzCore.framework */; };
+		73AA14221900F498004B9076 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA14211900F498004B9076 /* StoreKit.framework */; };
+		73AA14241900F4A1004B9076 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AA14231900F4A1004B9076 /* SystemConfiguration.framework */; };
+		73AA14271901081A004B9076 /* kidsgoSignUpNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AA14261901081A004B9076 /* kidsgoSignUpNavigationViewController.m */; };
+		73AA143119011248004B9076 /* kidsgoLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AA143019011248004B9076 /* kidsgoLogInViewController.m */; };
 		73BE77DA18FFBEFE007A376E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BE77D918FFBEFE007A376E /* Foundation.framework */; };
 		73BE77DC18FFBEFE007A376E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BE77DB18FFBEFE007A376E /* CoreGraphics.framework */; };
 		73BE77DE18FFBEFE007A376E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BE77DD18FFBEFE007A376E /* UIKit.framework */; };
@@ -14,13 +31,14 @@
 		73BE77E618FFBEFE007A376E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BE77E518FFBEFE007A376E /* main.m */; };
 		73BE77EA18FFBEFE007A376E /* kidsgoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BE77E918FFBEFE007A376E /* kidsgoAppDelegate.m */; };
 		73BE77ED18FFBEFE007A376E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BE77EB18FFBEFE007A376E /* Main.storyboard */; };
-		73BE77F018FFBEFE007A376E /* kidsgoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BE77EF18FFBEFE007A376E /* kidsgoViewController.m */; };
+		73BE77F018FFBEFE007A376E /* kidsgoStartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BE77EF18FFBEFE007A376E /* kidsgoStartPageViewController.m */; };
 		73BE77F218FFBEFE007A376E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73BE77F118FFBEFE007A376E /* Images.xcassets */; };
 		73BE77F918FFBEFE007A376E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BE77F818FFBEFE007A376E /* XCTest.framework */; };
 		73BE77FA18FFBEFE007A376E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BE77D918FFBEFE007A376E /* Foundation.framework */; };
 		73BE77FB18FFBEFE007A376E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BE77DD18FFBEFE007A376E /* UIKit.framework */; };
 		73BE780318FFBEFE007A376E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73BE780118FFBEFE007A376E /* InfoPlist.strings */; };
 		73BE780518FFBEFE007A376E /* kidsgoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BE780418FFBEFE007A376E /* kidsgoTests.m */; };
+		73BE780F18FFC023007A376E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BE780E18FFC023007A376E /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73AA14071900F268004B9076 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		73AA14091900F2C5004B9076 /* FBUserSettingsViewResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBUserSettingsViewResources.bundle; sourceTree = "<group>"; };
+		73AA140B1900F312004B9076 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		73AA140D1900F31C004B9076 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		73AA140F1900F32E004B9076 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		73AA14111900F336004B9076 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		73AA14131900F33D004B9076 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		73AA14151900F44A004B9076 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		73AA14171900F452004B9076 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		73AA14191900F468004B9076 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		73AA141B1900F476004B9076 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		73AA141D1900F480004B9076 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		73AA141F1900F490004B9076 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		73AA14211900F498004B9076 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		73AA14231900F4A1004B9076 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		73AA14251901081A004B9076 /* kidsgoSignUpNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kidsgoSignUpNavigationViewController.h; sourceTree = "<group>"; };
+		73AA14261901081A004B9076 /* kidsgoSignUpNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kidsgoSignUpNavigationViewController.m; sourceTree = "<group>"; };
+		73AA142F19011248004B9076 /* kidsgoLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kidsgoLogInViewController.h; sourceTree = "<group>"; };
+		73AA143019011248004B9076 /* kidsgoLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kidsgoLogInViewController.m; sourceTree = "<group>"; };
 		73BE77D618FFBEFE007A376E /* kidsgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BE77D918FFBEFE007A376E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		73BE77DB18FFBEFE007A376E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +82,15 @@
 		73BE77E818FFBEFE007A376E /* kidsgoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kidsgoAppDelegate.h; sourceTree = "<group>"; };
 		73BE77E918FFBEFE007A376E /* kidsgoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kidsgoAppDelegate.m; sourceTree = "<group>"; };
 		73BE77EC18FFBEFE007A376E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		73BE77EE18FFBEFE007A376E /* kidsgoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kidsgoViewController.h; sourceTree = "<group>"; };
-		73BE77EF18FFBEFE007A376E /* kidsgoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kidsgoViewController.m; sourceTree = "<group>"; };
+		73BE77EE18FFBEFE007A376E /* kidsgoStartPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kidsgoStartPageViewController.h; sourceTree = "<group>"; };
+		73BE77EF18FFBEFE007A376E /* kidsgoStartPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kidsgoStartPageViewController.m; sourceTree = "<group>"; };
 		73BE77F118FFBEFE007A376E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		73BE77F718FFBEFE007A376E /* kidsgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kidsgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BE77F818FFBEFE007A376E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		73BE780018FFBEFE007A376E /* kidsgoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kidsgoTests-Info.plist"; sourceTree = "<group>"; };
 		73BE780218FFBEFE007A376E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73BE780418FFBEFE007A376E /* kidsgoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kidsgoTests.m; sourceTree = "<group>"; };
+		73BE780E18FFC023007A376E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73AA14241900F4A1004B9076 /* SystemConfiguration.framework in Frameworks */,
+				73AA14221900F498004B9076 /* StoreKit.framework in Frameworks */,
+				73AA14201900F490004B9076 /* QuartzCore.framework in Frameworks */,
+				73AA141E1900F480004B9076 /* MobileCoreServices.framework in Frameworks */,
+				73AA141C1900F476004B9076 /* libz.1.1.3.dylib in Frameworks */,
+				73AA141A1900F468004B9076 /* CoreLocation.framework in Frameworks */,
 				73BE77DC18FFBEFE007A376E /* CoreGraphics.framework in Frameworks */,
+				73AA14181900F452004B9076 /* CFNetwork.framework in Frameworks */,
+				73AA14161900F44A004B9076 /* AudioToolbox.framework in Frameworks */,
+				73AA14141900F33D004B9076 /* Social.framework in Frameworks */,
+				73AA14121900F336004B9076 /* Security.framework in Frameworks */,
+				73AA14101900F32E004B9076 /* libsqlite3.dylib in Frameworks */,
+				73AA140E1900F31C004B9076 /* Accounts.framework in Frameworks */,
+				73AA140C1900F312004B9076 /* AdSupport.framework in Frameworks */,
+				73AA14081900F268004B9076 /* FacebookSDK.framework in Frameworks */,
 				73BE77DE18FFBEFE007A376E /* UIKit.framework in Frameworks */,
+				73BE780F18FFC023007A376E /* Parse.framework in Frameworks */,
 				73BE77DA18FFBEFE007A376E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +154,22 @@
 		73BE77D818FFBEFE007A376E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73AA14231900F4A1004B9076 /* SystemConfiguration.framework */,
+				73AA14211900F498004B9076 /* StoreKit.framework */,
+				73AA141F1900F490004B9076 /* QuartzCore.framework */,
+				73AA141D1900F480004B9076 /* MobileCoreServices.framework */,
+				73AA141B1900F476004B9076 /* libz.1.1.3.dylib */,
+				73AA14191900F468004B9076 /* CoreLocation.framework */,
+				73AA14171900F452004B9076 /* CFNetwork.framework */,
+				73AA14151900F44A004B9076 /* AudioToolbox.framework */,
+				73AA14131900F33D004B9076 /* Social.framework */,
+				73AA14111900F336004B9076 /* Security.framework */,
+				73AA140F1900F32E004B9076 /* libsqlite3.dylib */,
+				73AA140D1900F31C004B9076 /* Accounts.framework */,
+				73AA140B1900F312004B9076 /* AdSupport.framework */,
+				73AA14091900F2C5004B9076 /* FBUserSettingsViewResources.bundle */,
+				73AA14071900F268004B9076 /* FacebookSDK.framework */,
+				73BE780E18FFC023007A376E /* Parse.framework */,
 				73BE77D918FFBEFE007A376E /* Foundation.framework */,
 				73BE77DB18FFBEFE007A376E /* CoreGraphics.framework */,
 				73BE77DD18FFBEFE007A376E /* UIKit.framework */,
@@ -112,13 +181,17 @@
 		73BE77DF18FFBEFE007A376E /* kidsgo */ = {
 			isa = PBXGroup;
 			children = (
+				73BE77EE18FFBEFE007A376E /* kidsgoStartPageViewController.h */,
+				73BE77EF18FFBEFE007A376E /* kidsgoStartPageViewController.m */,
+				73AA14251901081A004B9076 /* kidsgoSignUpNavigationViewController.h */,
+				73AA14261901081A004B9076 /* kidsgoSignUpNavigationViewController.m */,
 				73BE77E818FFBEFE007A376E /* kidsgoAppDelegate.h */,
 				73BE77E918FFBEFE007A376E /* kidsgoAppDelegate.m */,
 				73BE77EB18FFBEFE007A376E /* Main.storyboard */,
-				73BE77EE18FFBEFE007A376E /* kidsgoViewController.h */,
-				73BE77EF18FFBEFE007A376E /* kidsgoViewController.m */,
 				73BE77F118FFBEFE007A376E /* Images.xcassets */,
 				73BE77E018FFBEFE007A376E /* Supporting Files */,
+				73AA142F19011248004B9076 /* kidsgoLogInViewController.h */,
+				73AA143019011248004B9076 /* kidsgoLogInViewController.m */,
 			);
 			path = kidsgo;
 			sourceTree = "<group>";
@@ -229,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73AA140A1900F2C5004B9076 /* FBUserSettingsViewResources.bundle in Resources */,
 				73BE77F218FFBEFE007A376E /* Images.xcassets in Resources */,
 				73BE77E418FFBEFE007A376E /* InfoPlist.strings in Resources */,
 				73BE77ED18FFBEFE007A376E /* Main.storyboard in Resources */,
@@ -252,7 +326,9 @@
 			files = (
 				73BE77E618FFBEFE007A376E /* main.m in Sources */,
 				73BE77EA18FFBEFE007A376E /* kidsgoAppDelegate.m in Sources */,
-				73BE77F018FFBEFE007A376E /* kidsgoViewController.m in Sources */,
+				73AA143119011248004B9076 /* kidsgoLogInViewController.m in Sources */,
+				73BE77F018FFBEFE007A376E /* kidsgoStartPageViewController.m in Sources */,
+				73AA14271901081A004B9076 /* kidsgoSignUpNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +453,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kidsgo/kidsgo-Prefix.pch";
 				INFOPLIST_FILE = "kidsgo/kidsgo-Info.plist";
@@ -390,6 +470,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kidsgo/kidsgo-Prefix.pch";
 				INFOPLIST_FILE = "kidsgo/kidsgo-Info.plist";
@@ -457,6 +541,7 @@
 				73BE780A18FFBEFE007A376E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73BE780B18FFBEFE007A376E /* Build configuration list for PBXNativeTarget "kidsgoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +550,7 @@
 				73BE780D18FFBEFE007A376E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
